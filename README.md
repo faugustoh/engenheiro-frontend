@@ -1,7 +1,7 @@
 # Curso Engenheiro Front-end
 
-#GIT
-##Conceitos de versionamento
+# GIT
+## Conceitos de versionamento
 - Histórico
 - Controle de Versão
 - Quem alterou
