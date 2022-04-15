@@ -29,4 +29,4 @@ Informação de alteração
 - após testado todo seu código
 
 ## GitFlow
-Fluxo do Git 
+Fluxo do Git
