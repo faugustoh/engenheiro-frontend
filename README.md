@@ -45,7 +45,7 @@ são ramificações / versões paralelas
 - versionamento 1.0.0
 
 git checkout -b dev (cria uma branch)
-git checkout master (mudar de branch)
+git checkout main (mudar de branch)
 
 ### Merge
 Mescla de branchs
