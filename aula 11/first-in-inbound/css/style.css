@@ -147,12 +147,16 @@ footer p {
     padding: 1em 30px 1em 0;
 }
 
+#sidebar h3 {
+    color: #ffbe00;
+    border-bottom: 1px solid #ffbe00;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
 #sidebar nav {
     width: auto;
     margin: auto;
-    background-color: #eee;
-    border: 1px solid #ddd;
-    border-radius: 8px;
 }
 
 #sidebar nav ul {
@@ -245,6 +249,8 @@ footer p {
 
     h1 {
         font-size: 1.35em;
+        text-align: center;
+        margin-bottom: 1em;
     }
 
     h2, h3, h4, h5, h6 {
@@ -278,14 +284,6 @@ footer p {
         width: 100%;
         padding: 3em 0em 1em;
         order: 2;
-    }
-    
-    #sidebar nav {
-        width: auto;
-        margin: auto;
-        background-color: #eee;
-        border: 1px solid #ddd;
-        border-radius: 8px;
     }
 	
 	.videoembeded {
@@ -351,6 +349,11 @@ footer p {
 }
 
 @media (min-width: 768px) {
+    h1 {
+        text-align: left;
+        margin-bottom: 0.5em;
+    }
+
     nav {
         width: 100%;
         text-align: center;
@@ -496,5 +499,66 @@ footer p {
         padding-right: 2em;
         padding-top: 4em;
         order: 1;
+    }
+
+    #first-banner {
+        background-image: url('../images/img-main-banner-01.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 65vh;
+    }
+
+    #first-banner h2 {
+        color: #ffbe00;
+        font-size: 2.2em;
+    }
+
+    #first-banner span {
+        padding: 15px;
+        color: #222;
+        background-color: #ffbe00;
+        display: inline-block;
+        border-radius: 8px;
+    }
+
+    #first-banner .container {
+        display: flow-root;
+        position: relative;
+        height: 100%;
+        color: #ccc;
+    }
+
+    #first-banner .banner_text {
+        right: 0;
+        top: 25%;
+        width: 50%;
+        position: absolute;
+        padding-right: 15px;
+    }
+
+    #hot-nossa-empresa {
+        padding: 4em 1em;
+    }
+
+    #hot-destaques {
+        padding: 4em 1em;
+        border-top: 1px solid #ddd;
+        background-color: #eee;
+    }
+
+    #hot-destaques .container {
+        background-color: aqua;
+        text-align: center;
+    }
+
+    #hot-destaques .hot-small-box {
+        background-color:cadetblue;
+        width: 33.333%;
+        padding: 15px;
+        margin: auto;
+    }
+
+    #faq {
+        padding: 4em 1em;
     }
 }
