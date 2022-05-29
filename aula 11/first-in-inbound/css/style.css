@@ -135,6 +135,23 @@ footer p {
     margin-bottom: 0.5em;
 }
 
+dt {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+dd {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+dd:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
 .container {
     max-width: 1140px;
     margin: auto;
@@ -190,7 +207,6 @@ footer p {
 
 #power_form {
     background-color: #555;
-    margin-top: 2em;
     padding: 4em 1em;
 }
 
@@ -290,6 +306,116 @@ footer p {
 		max-width: 270px !important;
 		max-height: 152px !important;		
 	}
+
+    #first-banner {
+        background-image: url('../images/img-main-banner-01.jpg');
+        background-position: -15px 0;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-color: #010101;
+        height: 65vh;
+        text-align: center;
+    }
+
+    #first-banner h2 {
+        color: #ffbe00;
+        font-size: 1.1em;
+    }
+
+    #first-banner span {
+        font-size: 0.85em;
+        font-weight: bold;
+        padding: 9px 12px;
+        color: #222;
+        background-color: #ffbe00;
+        display: inline-block;
+        border-radius: 8px;
+    }
+
+    #first-banner .container {
+        display: flow-root;
+        position: relative;
+        height: 100%;
+        color: #ccc;
+    }
+
+    #first-banner .banner_text {
+        padding: 0 1em;
+        bottom: 7%;
+        width: 100%;
+        position: absolute;
+    }
+
+    #hot-nossa-empresa {
+        padding: 4em 1em;
+    }
+
+    #hot-nossa-empresa p {
+        text-align: center;
+        line-height: 1.5em;
+        margin: auto;
+    }
+
+    #hot-destaques {
+        padding: 4em 1em;
+        border-top: 1px solid #ddd;
+        background-color: #eee;
+        text-align: center;
+    }
+
+    #hot-destaques img {
+        width: 65%;
+        margin-bottom: 1.25em;
+    }
+
+    #hot-destaques .container{
+        display: block;
+    }
+
+    #hot-destaques .hot-small-box {
+        padding: 15px 15px 45px;
+        margin: auto;
+    }
+
+    #hot-destaques .hot-small-box:last-child {
+        padding: 15px 15px 0px;
+        margin: auto;
+    }
+
+    #faq {
+        padding: 4em 1.5em;
+        text-align: center;
+    }
+
+    #faq dl{
+        margin-block-end: 0;
+    }
+
+    #faq dd{
+        margin-inline-start: 0;
+    }
+
+    #faq h2 {
+        text-align: center;
+        margin-bottom: 1.75em;
+        color: #ff7d00;
+    }
+
+    #faq .container {
+        display: block;
+    }
+
+    #power_form {
+        margin-top: 0;
+    }
+
+    .cog-page {
+        text-align: center !important;
+    }
+
+    .cog-page__navigation {
+        justify-content: center !important;
+    }
 	
 }
 
@@ -346,6 +472,15 @@ footer p {
 		max-width: 365px !important;
 		max-height: 205px !important;		
 	}
+
+    #first-banner {
+        background-position: 25px 0;
+        background-size: 165%;
+    }
+
+    #hot-destaques img {
+        width: 45%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -406,6 +541,64 @@ footer p {
 		max-width: initial !important;
 		max-height: initial !important;		
 	}
+
+    #first-banner {
+        background-position: -120px center;
+        background-size: 135%;
+        background-repeat: no-repeat;
+        text-align: left;
+    }
+
+    #first-banner h2 {
+        font-size: 1.75em;
+    }
+
+    #first-banner span {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    #first-banner .banner_text {
+        right: 2%;
+        top: 23%;
+        width: 50%;
+        padding-right: 15px;
+    }   
+    
+    #hot-nossa-empresa p {
+        max-width: 80%;
+    }
+
+    #hot-destaques p {
+        margin-bottom: 0;
+    }
+
+    #hot-destaques img {
+        width: 65%;
+    }
+
+    #hot-destaques .container{
+        display: flex;
+    }
+
+    #hot-destaques .hot-small-box {
+        width: 30%;
+        padding: 15px;
+    }
+
+    #hot-destaques .hot-small-box:last-child {
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    #faq h2 {
+        font-size: 1.75em;
+        margin-bottom: 1em;
+    }
+
+    #power_form h2 {
+        font-size: 1.75em;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -502,63 +695,46 @@ footer p {
     }
 
     #first-banner {
-        background-image: url('../images/img-main-banner-01.jpg');
         background-position: center center;
         background-size: cover;
         height: 65vh;
     }
 
     #first-banner h2 {
-        color: #ffbe00;
         font-size: 2.2em;
     }
 
     #first-banner span {
-        padding: 15px;
-        color: #222;
-        background-color: #ffbe00;
-        display: inline-block;
-        border-radius: 8px;
-    }
-
-    #first-banner .container {
-        display: flow-root;
-        position: relative;
-        height: 100%;
-        color: #ccc;
+        padding: 13px 15px;
     }
 
     #first-banner .banner_text {
         right: 0;
-        top: 25%;
-        width: 50%;
-        position: absolute;
-        padding-right: 15px;
+        top: 24%;
     }
 
-    #hot-nossa-empresa {
-        padding: 4em 1em;
-    }
-
-    #hot-destaques {
-        padding: 4em 1em;
-        border-top: 1px solid #ddd;
-        background-color: #eee;
-    }
-
-    #hot-destaques .container {
-        background-color: aqua;
-        text-align: center;
+    #hot-nossa-empresa p {
+        max-width: 60%;
     }
 
     #hot-destaques .hot-small-box {
-        background-color:cadetblue;
         width: 33.333%;
-        padding: 15px;
-        margin: auto;
     }
 
     #faq {
         padding: 4em 1em;
+    }
+
+    #faq h2 {
+        font-size: 2.2em;
+        margin-bottom: 1.75em;
+    }
+
+    #faq .container {
+        display: block;
+    }
+
+    #power_form {
+        margin-top: 2em;
     }
 }
